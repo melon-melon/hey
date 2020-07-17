@@ -1,0 +1,6 @@
+{
+  "semi": false,
+  // Why tabs? Because you can set how wide they are in your favourite editor.
+  "useTabs": true,
+  "singleQuote": true
+}
