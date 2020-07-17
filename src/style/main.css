@@ -4,6 +4,7 @@
 
 html {
   font-size: 18px;
+  font-size: calc(18px + (20 - 18) * ((100vw - 640px) / (1280 - 640)));
 }
 
 body {
