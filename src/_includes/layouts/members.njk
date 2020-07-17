@@ -1,0 +1,17 @@
+---
+layout: layouts/container.njk
+---
+
+<article class="article-typography">
+  {{ content | safe }}
+
+</article>
+<div>
+  {% for member in collections.member %}
+    <div class="p-1 bg-gradient-{{member.data.color}}">
+      <div class="bg-gainsboro">
+        <h3>{{ member.data.title }}</h3>
+      </div>
+    </div>
+  {% endfor %}
+</div>

@@ -19,3 +19,23 @@ body {
 .article-typography p {
   @apply text-base;
 }
+
+.bg-gradient-purple {
+  background: linear-gradient(135deg, #bd4bf2 0%, #5680ec 100%);
+}
+
+.bg-gradient-orange {
+  background: linear-gradient(135deg, #f2954b 0%, #ec5c56 100%);
+}
+
+.bg-gradient-red {
+  background: linear-gradient(135deg, #ec3737 0%, #729fd3 100%);
+}
+
+.bg-gradient-green {
+  background: linear-gradient(135deg, #37ecba 0%, #72afd3 100%);
+}
+
+.bg-gainsboro {
+  background: gainsboro;
+}

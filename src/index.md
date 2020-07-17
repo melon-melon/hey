@@ -1,5 +1,5 @@
 ---
-layout: layouts/article.njk
+layout: layouts/members.njk
 ---
 
 # Hey. 🍉🍉
