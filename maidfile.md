@@ -22,10 +22,29 @@ Serve 11ty assets in development mode.
 ELEVENTY_ENV=development npx eleventy --serve
 ```
 
+## dev:eleventy
+
+```bash
+EVELENTY_ENV=development npx eleventy
+```
+
+## dev:webpack
+
+```bash
+npx webpack --mode development
+```
+
 ## serve
 
 Run task `clean` before this.
-Run task `serve:webpack` and `serve:eleventy` in parallel.
+
+```bash
+npx maid dev:webpack
+npx maid dev:eleventy
+```
+
+Run task `serve:webpack` after this.
+Run task `serve:eleventy` in parallel after this.
 
 ## build:webpack
 
@@ -46,5 +65,5 @@ ELEVENTY_ENV=production npx eleventy
 ## build
 
 Run task `clean` before this.
-Run task `build:eleventy`.
-Run task `build:webpack` after this.
+Run task `build:webpack`.
+Run task `build:eleventy` after this.
