@@ -5,5 +5,6 @@ module.exports = {
     require('tailwindcss'),
     require('autoprefixer'),
     purgecss({ content: ['./_site/**/*.html'] }),
+    require('cssnano'),
   ],
 }
