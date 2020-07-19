@@ -1,5 +1,5 @@
 ---
 tags: member
 title: Maarten
-color:
+color: red
 ---
