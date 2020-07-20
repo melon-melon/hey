@@ -28,18 +28,11 @@ ELEVENTY_ENV=development npx eleventy --serve
 EVELENTY_ENV=development npx eleventy
 ```
 
-## dev:webpack
-
-```bash
-npx webpack --mode development
-```
-
 ## serve
 
 Run task `clean` before this.
 
 ```bash
-npx maid dev:webpack
 npx maid dev:eleventy
 ```
 
@@ -65,6 +58,5 @@ ELEVENTY_ENV=production npx eleventy
 ## build
 
 Run task `clean` before this.
-Run task `build:webpack`.
-Run task `build:eleventy` after this.
+Run task `build:eleventy`.
 Run task `build:webpack` after this.
