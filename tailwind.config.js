@@ -1,7 +1,27 @@
+const colors = {
+  black: '#101913',
+  white: '#F9FBFA',
+  purple: '#BD4BF2',
+  blue: '#5680EC',
+  orange: '#F2954B',
+  red: '#EC5C56',
+  green: '#37ECBA',
+}
+
 module.exports = {
   purge: [],
   theme: {
     extend: {},
+    colors,
+    linearGradientDirections: {
+      ne: '135deg' /* NE = north east */,
+    },
+    linearGradientColors: {
+      'green-blue': [colors.green, colors.blue],
+      'orange-red': [colors.orange, colors.red],
+      'red-purple': [colors.red, colors.purple],
+      'purple-blue': [colors.purple, colors.blue],
+    },
     fontFamily: {
       body: [
         'Source Sans Pro',
@@ -22,5 +42,5 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [require('tailwindcss-gradients')],
 }

@@ -1,5 +1,5 @@
 ---
 tags: member
 title: Sven
-color: orange
+color: orange-red
 ---
