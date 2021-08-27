@@ -12,11 +12,13 @@ body {
   @apply text-black;
 }
 
-.article-typography h1 {
-  @apply text-4xl;
-  @apply font-bold;
+a:not([class]):hover {
+  @apply text-red;
 }
 
-.article-typography p {
-  @apply text-base;
+.copy-center {
+  max-width: 65ch;
+  margin-left: auto;
+  margin-right: auto;
+  @apply pl-2 pr-2;
 }

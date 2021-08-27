@@ -4,8 +4,8 @@ layout: layouts/members.njk
 
 # Hey. 🍉🍉
 
-This will be our team page. _Neat, hm?_
+This is our team page. _Neat, hm?_
 
-It's still a bit empty. _I know._
+It's still a bit empty. _I know. We're working on it._
 
-Take care, see ya.
+Check it out:

@@ -1,5 +1,5 @@
 const path = require('path')
-const ManifestPlugin = require('webpack-manifest-plugin')
+const { WebpackManifestPlugin } = require('webpack-manifest-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
@@ -9,7 +9,7 @@ module.exports = {
     filename: 'main.js',
   },
   plugins: [
-    new ManifestPlugin({ publicPath: '/assets/' }),
+    new WebpackManifestPlugin({ publicPath: '/assets/' }),
     new MiniCssExtractPlugin(),
   ],
   module: {

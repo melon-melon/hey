@@ -1,0 +1,20 @@
+
+---
+layout: layouts/base.njk
+---
+
+<div class="space-y-8">
+  <aside class="prose">
+    <a href="/">Go back home</a>
+  </aside>
+  <div class="space-y-4">
+    <div class="p-1 bg-gradient-ne-{{ color }}">
+      <div class="p-4 bg-white">
+        <h3 class="text-xl font-bold">{{ title }}</h3>
+        <article class="prose">
+          {{ content | safe }} 
+        </article>
+      </div>
+    </div>
+  </div>
+</div>

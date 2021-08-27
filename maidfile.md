@@ -19,13 +19,13 @@ npx webpack --mode development --watch
 Serve 11ty assets in development mode.
 
 ```bash
-ELEVENTY_ENV=development npx eleventy --serve
+ELEVENTY_ENV=development npx @11ty/eleventy --serve
 ```
 
 ## dev:eleventy
 
 ```bash
-EVELENTY_ENV=development npx eleventy
+EVELENTY_ENV=development npx @11ty/eleventy
 ```
 
 ## serve
@@ -52,7 +52,7 @@ npx webpack --mode production
 Build eleventy assets in production mode.
 
 ```bash
-ELEVENTY_ENV=production npx eleventy
+ELEVENTY_ENV=production npx @11ty/eleventy
 ```
 
 ## build

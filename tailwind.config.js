@@ -9,7 +9,7 @@ const colors = {
 }
 
 module.exports = {
-  purge: [],
+  purge: ['./src/**/*.njk'],
   theme: {
     extend: {},
     colors,
@@ -42,5 +42,8 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [require('tailwindcss-gradients')],
+  plugins: [
+    require('tailwindcss-gradients'),
+    require('@tailwindcss/typography'),
+  ],
 }

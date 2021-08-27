@@ -4,7 +4,9 @@ module.exports = {
   plugins: [
     require('tailwindcss'),
     require('autoprefixer'),
-    purgecss({ content: ['./_site/**/*.html'] }),
+    purgecss({
+      content: ['./src/**/*.njk'],
+    }),
     require('cssnano'),
   ],
 }
