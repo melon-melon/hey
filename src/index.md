@@ -1,11 +1,10 @@
 ---
-layout: layouts/members.njk
+layout: layouts/home.njk
+menu:
+  - {title: "Who are we?", href: "/members"}
+  - {title: "What did we make?", href: "/projects"}
 ---
 
 # Hey. 🍉🍉
 
-This is our team page. _Neat, hm?_
-
-It's still a bit empty. _I know. We're working on it._
-
-Check it out:
+We're **melonmelon**. _Nice to meet you._

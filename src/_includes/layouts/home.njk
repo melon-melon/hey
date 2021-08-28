@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+---
+
+<div class="space-y-8">
+  <article class="prose">
+    {{ content | safe }}
+  </article>
+  <nav>
+    <ul>
+      {% for item in menu %}
+        <li><a href="{{item.href}}">{{item.title}}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</div>

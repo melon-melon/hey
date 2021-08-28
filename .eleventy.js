@@ -53,6 +53,10 @@ module.exports = function (eleventyConfig) {
     return webpackManifest[value]
   })
 
+  eleventyConfig.addShortcode('workInProgressWarning', function () {
+    return `<span class="wip-warning">This page is a bit messy. It's a work in progress!</span>`
+  })
+
   return {
     dir: { input: 'src', output: '_site' },
   }

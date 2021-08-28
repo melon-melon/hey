@@ -9,9 +9,17 @@ const colors = {
 }
 
 module.exports = {
-  purge: ['./src/**/*.njk'],
+  purge: [],
   theme: {
-    extend: {},
+    extend: {
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            color: theme('colors.black'),
+          },
+        },
+      }),
+    },
     colors,
     linearGradientDirections: {
       ne: '135deg' /* NE = north east */,
